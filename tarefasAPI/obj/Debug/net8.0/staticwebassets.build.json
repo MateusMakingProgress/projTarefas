@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iXSNgQkZNvNaUixAzpNLlL3Vff9xku9bREu1viaeObw=",
+  "Source": "tarefasAPI",
+  "BasePath": "_content/tarefasAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
