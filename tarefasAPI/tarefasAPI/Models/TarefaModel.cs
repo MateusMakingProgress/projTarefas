@@ -7,4 +7,8 @@ public class TarefaModel : Entity
     public string? Nome { get; set; }
     public string? Descricao { get; set; }
     public StatusTarefa Status { get; set; }
+
+    public Guid? UsuarioId { get; set; }
+
+    public virtual UsuarioModel? Usuario { get; set; }
 }

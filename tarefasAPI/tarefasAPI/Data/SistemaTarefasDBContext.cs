@@ -14,7 +14,7 @@ namespace tarefasAPI.Data
         {
         }
         public DbSet<UsuarioModel> Usuarios { get; set; }
-        public DbSet<UsuarioModel> Tarefas { get; set; }
+        public DbSet<TarefaModel> Tarefas { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UsuarioMap());
